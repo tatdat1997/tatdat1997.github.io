@@ -1,0 +1,127 @@
+body {
+    font-family:verdana,helvetica,arial,sans-serif;
+    padding:20px;
+    font-size:12px;
+    margin:0;
+}
+h2 {
+    font-size:18px;
+    font-weight:bold;
+    margin:0;
+    margin-bottom:15px;
+}
+.demo-info{
+	padding:0 0 12px 0;
+}
+.demo-tip{
+	display:none;
+}
+.label-top{
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: middle;
+}
+.creatquest{
+    margin: 5% auto 5%;
+    width: 80%;
+    padding: 2%;
+    background: #f5f5f5;
+    border: 1px solid black;
+    border-radius: 15px 15px;
+    text-align: center;
+}
+.btn-creat{
+    padding: 1%;
+    margin: auto;
+    clear: both;
+}
+.input-group-text{
+    background-color: #fff;
+}
+
+.sonar-wrapper {
+  background-image:url('https://images.pexels.com/photos/395132/pexels-photo-395132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  display: flex;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  padding: 8rem 0;
+  text-align: center;
+  color: #fff;   
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* The circle */
+.sonar-emitter {
+  position: relative;
+  margin: 0 auto;
+  width: 275px;
+  height: 275px;
+  border-radius: 9999px;
+  background-color: HSL(45,100%,50%);
+}
+
+/* the 'wave', same shape and size as its parent */
+.sonar-wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 9999px;
+  background-color: HSL(45,100%,50%);
+  opacity: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/*
+  Animate!
+  NOTE: add browser prefixes where needed.
+*/
+.sonar-wave {
+  animation: sonarWave 2s linear infinite;
+}
+
+@keyframes sonarWave {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+#content-header{
+    background-size: 100% 100%;
+    font-size: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#content-header a {
+    text-decoration: none!important;
+    color: #000;
+}
+
+#content-header a:hover{
+    color: #fff;
+}
+.input-group-prepend1 {
+  float: left;
+  display: flex;
+  margin: 0 0 20px;
+  z-index: 100;
+  text-align-last:center;
+}
