@@ -1,3 +1,3 @@
 <?php 
-	
+	// Function for product
 ?>
