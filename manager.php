@@ -4,6 +4,6 @@
 	<title>MANAGER</title>
 </head>
 <body>
-
+	<?php echo'Edit something' ?>
 </body>
 </html>
