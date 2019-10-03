@@ -1,5 +1,5 @@
 <?php 
 	// Function for product
 	// Function 1 for manager; 
-// new function
+// New function for Manager;
 ?>
